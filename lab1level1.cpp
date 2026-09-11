@@ -1,11 +1,12 @@
 #include <iostream>
+#include <locale.h>
 
 
-//"Êâàäðàò ÷èñëà"
+//"Квадрат числа"
 int main()
 {
-    setlocale (LC_CTYPE, "Russian"); //êèðèëèöà íåêîððåêòíî îòîáðàæàåòñÿ áåç ýòîé êîìàíäû
+    setlocale (LC_CTYPE, "Russian"); //кирилица некорректно отображается без этой команды
     double number{10};
-    std::cout << "Êâàäðàò ÷èñëà " << number << " = " << number * number; //ñ÷èòàåì êâàäðàò óìíîæåíèåì ÷èñëà íà ñàìî ñåáÿ è âûâîäèì
+    std::cout << "Квадрат числа " << number << " = " << number * number; //считаем квадрат умножением числа на само себя и выводим
     return 0;
 }
