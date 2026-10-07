@@ -3,8 +3,11 @@
 
 int main() {
     int Dice;
+    //Запрашиваем число
     std::cout << "Введите число:" << "\n";
     std::cin >> Dice;
+
+    //Выводим соответствующее значение
     switch (Dice)
     {
         case 1:
