@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+
+//Конвертер валют: выбрать направление (1-USD→RUB, 2-RUB→USD, 3-EUR→RUB, 4-RUB→EUR) и ввести сумму
 int main() {
     int choice;
     int budget;
