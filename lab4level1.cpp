@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 
+//По числу (1-6) вывести название игральной кости (One,
+Two, ..., Six)
+
 int main() {
     int Dice;
     //Запрашиваем число
